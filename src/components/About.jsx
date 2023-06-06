@@ -8,7 +8,7 @@ const About = () => {
   useEffect(() => {
     setTimeout(function () {
       setLoading(false);
-    }, 7000);
+    }, 20000);
   }, []);
 
   return (
